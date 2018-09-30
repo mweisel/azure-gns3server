@@ -1,6 +1,7 @@
 ---
 - name: azure resources
   hosts: localhost
+  connection: local
   gather_facts: no
 
   tasks:
