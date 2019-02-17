@@ -8,14 +8,12 @@
       terraform:
         project_path: "{{ playbook_dir }}"
         state: present
-      register: tfout
-   
+
     - name: refresh the inventory
       meta: refresh_inventory
-      when: tfout.changed
 
 - name: gns3 components
-  hosts: gns3-server
+  hosts: gns3
 
   vars_files:
     - vars/vars-gns3.yml

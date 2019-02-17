@@ -1,2 +1,1 @@
 localhost ansible_connection=local
-gns3-server ansible_connection=ssh

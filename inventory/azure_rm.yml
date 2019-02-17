@@ -1,0 +1,4 @@
+plugin: azure_rm
+auth_source: auto
+conditional_groups:
+  gns3: "'gns3-server' in name"
