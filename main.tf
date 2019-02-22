@@ -20,10 +20,10 @@ resource "azurerm_subnet" "internal" {
 }
 
 resource "azurerm_public_ip" "public_ip" {
-  name                         = "${var.prefix}-public_ip"
-  location                     = "${azurerm_resource_group.rg.location}"
-  resource_group_name          = "${azurerm_resource_group.rg.name}"
-  public_ip_address_allocation = "dynamic"
+  name                = "${var.prefix}-public_ip"
+  location            = "${azurerm_resource_group.rg.location}"
+  resource_group_name = "${azurerm_resource_group.rg.name}"
+  allocation_method   = "Dynamic"
 }
 
 resource "azurerm_network_security_group" "allow-ssh-and-openvpn" {
