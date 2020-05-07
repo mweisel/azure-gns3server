@@ -1,12 +1,21 @@
+### USER ###
+
 # The privileged Linux user account to be created in Ubuntu
-admin_username = ""
+admin_username = "marc"
 
-# Location - https://azure.microsoft.com/global-infrastructure/locations
-location = ""
 
-# Compute
-#vm_size = "Standard_D4s_v3"
+### LOCATION ###
 
-# Storage
-#disk_type = "Premium_LRS"
-#disk_size = 64
+# https://azure.microsoft.com/global-infrastructure/locations
+location = "West US 2"
+
+
+### COMPUTE ###
+
+vm_size = "Standard_D4s_v3"
+
+
+### STORAGE ###
+
+disk_type = "Premium_LRS"
+disk_size = 64

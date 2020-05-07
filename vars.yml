@@ -1,0 +1,23 @@
+---
+### GNS3 ###
+
+# https://github.com/GNS3/gns3-server/releases
+gns3_version: 2.2.5
+
+
+### DUCK DNS ###
+
+# https://www.duckdns.org
+ddns_domain: binarynature
+ddns_token: eb867d5f-a10c-448a-81b1-fccd4860b234
+
+
+### WIREGUARD ###
+
+wireguard_peer_pubkey: VUUYOJ0sm/3Eo5R5IWvGNYD56raSq7mySzrMoqxFSEg=
+
+
+### DEFAULTS ###
+
+src_dir: "{{ ansible_env.HOME }}/src"
+...

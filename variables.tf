@@ -12,9 +12,9 @@ variable "address_space" {
   default     = ["10.52.0.0/16"]
 }
 
-variable "address_prefix" {
+variable "address_prefixes" {
   description = "The address space of the virtual machine-hosting subnet"
-  default     = "10.52.1.0/24"
+  default     = ["10.52.1.0/24"]
 }
 
 variable "admin_username" {
@@ -39,9 +39,4 @@ variable "disk_type" {
 variable "disk_size" {
   description = "Storage size (in GB)"
   default     = 32
-}
-
-variable "delete_os_disk" {
-  description = "Delete the OS disk automatically when deleting the VM"
-  default     = true
 }
