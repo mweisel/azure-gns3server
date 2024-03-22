@@ -9,7 +9,7 @@ This project provides an automated deployment procedure for [GNS3 server](https:
 
 ## Guide
 
-[GNS3 with Microsoft Azure](http://binarynature.blogspot.com/2018/09/gns3-microsoft-azure.html)
+[GNS3 with Microsoft Azure](https://marcstech.blog/archives/gns3-microsoft-azure)
 
 ## License
 
